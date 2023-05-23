@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+	<body style="background-color:#0FC6EF;">
+<head>
+<meta charset="utf-8">
+<title>Photos</title>
+<h1><center>Fire That P 24</center></h1>
+	<p></p>
+<body>
+	<nav>
+
+              <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+body {
+
+margin: 0;
+
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+ 
+
+.topnav {
+
+overflow: hidden;
+
+background-color: #000000 ;
+
+}
+
+ 
+
+.topnav a {
+
+float: left;
+
+color: #FF33BE ;
+
+text-align: center;
+
+padding: 14px 16px;
+
+text-decoration: none;
+
+font-size: 17px;
+
+}
+
+ 
+
+.topnav a:hover {
+
+background-color: #000000;
+
+color: #FF33BE;
+
+}
+
+ 
+
+.topnav a.active {
+
+background-color: #000000;
+
+color: #FF33BE;
+
+}
+
+</style>
+
+<body>
+
+ 
+<nav>
+<div class="topnav">
+<a href="about.html">About</a>
+<a href="index.html">Home</a>
+
+<a href="goals.html">Goals</a>
+
+<a class="active"  href="Photos.html">Photo</a>
+<a href="Social.html">Social Life</a>
+
+              
+<head>
+<meta charset="utf-8">
+<title>Photos.html</title>
+	</nav>
+</style>
+	<body>
+	<center><h1>&nbsp;</h1></center>
+	<div class="row">  
+	  <div class="column"></div>
+      <a href="john.jpeg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="john.jpeg" width="181" height="315" alt=""/></a><img src="leah.jpeg" width="242" height="315" alt=""/><img src="nick.jpeg" width="240" height="315" alt=""/><img src="sball.jpeg" width="182" height="315" alt=""/><img src="ollie.jpeg" width="174" height="315" alt=""/><img src="nick 2.jpeg" width="242" height="315" alt=""/><img src="leon.jpeg" width="242" height="315" alt=""/><img src="team.jpeg" width="242" height="315" alt=""/><img src="1000 point basketball.jpeg" width="166" height="315" alt=""/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="jorja.jpeg" width="240" height="315" alt=""/><img src="IMG_1662-AFE4B.JPG" width="182" height="315" alt=""/><img src="abby.jpeg" width="190" height="315" alt=""/><img src="me .JPG" width="165" height="315" alt=""/><img src="mom.JPG" width="248" height="315" alt=""/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="leah 2.JPG" width="181" height="315" alt=""/><img src="cassidy.jpeg" width="242" height="315" alt=""/><img src="sam.jpg" width="240" height="315" alt=""/><img src="me and nick.JPG" width="174" height="315" alt=""/><img src="baby.jpeg" width="381" height="210" alt=""/><img src="400.jpeg" width="315" height="210" alt=""/><img src="peacocks.JPG" width="327" height="210" alt=""/><img src="sister.jpeg" width="281" height="210" alt=""/><img src="finni 2.JPG" width="287" height="210" alt=""/><img src="libby.jpeg" width="356" height="210" alt=""/><img src="friends.jpeg" width="166" height="210" alt=""/><img src="prom.jpeg" width="373" height="210" alt=""/><img src="Buksa.jpeg" width="166" height="210" alt=""/>
+      <div class="column"></div>
+</div>
+
+<script>
+// Get the elements with class="column"
+var elements = document.getElementsByClassName("column");
+
+// Declare a loop variable
+var i;
+
+// Full-width images
+function one() {
+    for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "100%";  // IE10
+    elements[i].style.flex = "100%";
+  }
+}
+
+// Two images side by side
+function two() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "50%";  // IE10
+    elements[i].style.flex = "50%";
+  }
+}
+
+// Four images side by side
+function four() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "25%";  // IE10
+    elements[i].style.flex = "25%";
+  }
+}
+
+// Add active class to the current button (highlight it)
+var header = document.getElementById("myHeader");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+</body>
+</html>
+		
+</body>
+</html>
